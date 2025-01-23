@@ -12,7 +12,7 @@ const StatusTemplate = ({ rowData }: Props) => {
   };
 
   return (
-    <div className="text-center">
+    <div>
       <span
         className={`px-4 py-2 rounded-full text-sm font-medium 
             text-center ${statusStyles[rowData.status]}`}
